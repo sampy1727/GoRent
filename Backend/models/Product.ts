@@ -20,7 +20,7 @@ const productSchema: Schema<IProduct> = new Schema(
       required: true,
     },
     Price: {
-      type: Number, // ✅ use `Number` not `int`
+      type: Number, 
       required: true,
     },
   },
